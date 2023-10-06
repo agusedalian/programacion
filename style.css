@@ -63,7 +63,7 @@ p {
     width: 19vw;
     height: 19vw;
     margin-right: 5vw;
-    margin-left: 2vw;
+    margin-left: 4vw;
 }
 
 .imagenesDestination1{
@@ -132,15 +132,44 @@ p {
     margin-top: 2vw;
 }
 
-.carouselEx{
-    width: 10vw;
-    height: 10vw;
+.imagenesDestination7{
+    display: flex;
 }
 
-.carousel img {
+.imagenesDestination7{
+    width: 19vw;
+    height: 19vw;
+    margin-left: 2.5vw;
+    margin-top: 2vw;
+}
+
+.carousel{
+    width: 30vw;
+    height: 30vw;
+}
+
+/* .carousel img {
     width: 5vw;
+} */
+
+.navbar-nav{
+    list-style-type: none;
+ 
+}
+.navbar-nav li a{
+    text-align: center;
+    text-decoration: none;
 }
 
+.nav-link{
+    color: black!important;
+}
 a{
-    text-decoration:none;
+    color: black;
+}
+.nav-link:hover{
+    color: black;
+}
+a:hover{
+   color: black;
 }
