@@ -1,4 +1,4 @@
-const comentarios = document.getElementById("Contact");
+const comentarios = document.getElementById("Cont");
 
 comentarios.addEventListener("click", function() {
   confirmar("Contactarnos");
