@@ -45,9 +45,14 @@ p {
     padding-right: 20vw;
 }
   
-.parrafos2{
-    padding-left: 20vw; 
-    padding-right: 20vw;
+
+
+.p2{
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    text-align: justify;
 }
 
 .contact{
@@ -73,83 +78,6 @@ p {
     margin-left: 4vw;
 }
 
-/* .imagenesDestination1{
-    display: flex;
-}
-
-.imagenesDestination1{
-    width: 19vw;
-    height: 19vw;
-    margin-left: 2.5vw;
-    margin-top: 2vw;
-}
-
-.imagenesDestination2{
-    display: flex;
-}
-
-.imagenesDestination2{
-    width: 19vw;
-    height: 19vw;
-    margin-left: 2.5vw;
-    margin-top: 2vw;
-}
-
-.imagenesDestination3{
-    display: flex;
-}
-
-.imagenesDestination3{
-    width: 19vw;
-    height: 19vw;
-    margin-left: 2.5vw;
-    margin-top: 2vw;
-}
-
-.imagenesDestination4{
-    display: flex;
-}
-
-.imagenesDestination4{
-    width: 19vw;
-    height: 19vw;
-    margin-left: 2.5vw;
-    margin-top: 2vw;
-}
-
-.imagenesDestination5{
-    display: flex;
-}
-
-.imagenesDestination5{
-    width: 19vw;
-    height: 19vw;
-    margin-left: 2.5vw;
-    margin-top: 2vw;
-}
-
-.imagenesDestination6{
-    display: flex;
-}
-
-.imagenesDestination6{
-    width: 19vw;
-    height: 19vw;
-    margin-left: 2.5vw;
-    margin-top: 2vw;
-}
-
-.imagenesDestination7{
-    display: flex;
-}
-
-.imagenesDestination7{
-    width: 19vw;
-    height: 19vw;
-    margin-left: 2.5vw;
-    margin-top: 2vw;
-} */
-
 .container {
     text-align: center; 
     margin-top: 50px; 
@@ -166,11 +94,13 @@ p {
     object-fit: cover;
   }
   
-
+#titulo{
+    z-index: 30;
+}
 .navbar-nav{
     list-style-type: none;
     align-items: center;
-    z-index: 30;
+    z-index: 90;
 }
 
 .navbar-nav li a{
@@ -193,4 +123,105 @@ a{
 
 a:hover{
    color: black;
+}
+
+.imgs {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+}
+  
+.card{
+    width: 25rem;
+}
+
+.cardd{
+    width: 50vw;
+}
+
+#bali{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.text{
+    width: 50%;
+    padding: 30px;
+}
+
+#francia{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.textooo{
+    width: 50%;
+    padding: 30px;
+}
+
+#paisesBajos{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.texto21{
+    width: 50%;
+    padding: 30px;
+}
+
+#comentarios {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#formulario {
+    margin-top: 20px;
+}
+
+#formulario label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#formulario input[type="text"],
+#formulario textarea,
+#formulario input[type="number"],
+#formulario button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#formulario button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#formulario button:hover {
+    background-color: #0056b3;
+}
+
+#comentarios > div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#comentarios > div strong {
+    font-weight: bold;
+}
+
+#comentarios > div p {
+    margin-top: 5px;
+}
+
+#mensaje-enviado {
+    display: none;
 }
