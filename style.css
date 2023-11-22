@@ -1,18 +1,18 @@
 body {
-    background-color: whitesmoke;
+    background-color: grey;
 } 
 
-p{
+/* p{
     color: black;
     border: red;
     padding-top: 10px;
-}
+} */
 
 #titulo{
     position: sticky;
     padding: 10px;
     top:0;
-    background-color: rgb(212, 212, 244);
+    background-color:grey;
 }
 
 #logo{
@@ -23,40 +23,21 @@ p {
     font-family: "Times New Roman", 'Times New Roman', Times, serif;
 }
 
-.viaje {
+
+.text-index{
     text-align: center;
-  }
-  
-  .viaje img {
-    display: inline-block;
-  }
-  
-
-.texto{
-    margin-left: 2vw;
 }
-
-.parrafos{
-    margin-left: 2vw;
-}
-
-.texto2 {
-    padding-left: 20vw; 
-    padding-right: 20vw;
-}
-  
-
 
 .p2{
-    padding-top: 20px;
-    padding-right: 25px;
-    padding-bottom: 20px;
-    padding-left: 25px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
     text-align: justify;
 }
 
 .contact{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .row{
@@ -81,7 +62,7 @@ p {
 .container {
     text-align: center; 
     margin-top: 50px; 
-  }
+}
   
   .carousel {
     max-width: 800px; 
@@ -93,10 +74,11 @@ p {
     height: 100%;
     object-fit: cover;
   }
-  
+
 #titulo{
     z-index: 30;
 }
+
 .navbar-nav{
     list-style-type: none;
     align-items: center;
@@ -149,6 +131,7 @@ a:hover{
 .text{
     width: 50%;
     padding: 30px;
+    text-align: justify;
 }
 
 #francia{
@@ -160,6 +143,15 @@ a:hover{
 .textooo{
     width: 50%;
     padding: 30px;
+    text-align: justify;
+}
+
+.cards22{
+    width: 50%;
+}
+
+.cards33{
+    width: 50%;
 }
 
 #paisesBajos{
@@ -171,6 +163,7 @@ a:hover{
 .texto21{
     width: 50%;
     padding: 30px;
+    text-align: justify;
 }
 
 #comentarios {
@@ -224,4 +217,167 @@ a:hover{
 
 #mensaje-enviado {
     display: none;
+}
+
+
+.contenedorc{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5vw;
+    margin-bottom: 2vw; 
+}
+
+.contenedorc>div{
+box-shadow: 0vw 0vw 0,2vw 0vw rgba(0, 0, 0, 0.75);
+    background-color: grey;
+    border-radius: 2vw;
+}
+
+.contenedorc>div:hover{
+background-color: grey ;
+}
+
+
+#carrito {
+background-color: rgb(176, 172, 172);
+border-radius: 2vw;
+padding: 2vw;
+margin-top: 2vw;
+}
+
+#carrito h3 {
+font-family: 'Times New Roman', Times, serif;
+font-size: 2vw;
+font-weight: 300;
+text-align: center;
+margin-bottom: 1vw;
+}
+
+#carrito ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+#carrito li {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 1vw;
+}
+
+#carrito .producto {
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+font-size: 1.5vw;
+}
+
+#carrito .precio {
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+font-size: 1.5vw;
+}
+
+#carrito .eliminar {
+background-color: grey;
+color: #fff;
+border: none;
+padding: 0.5vw 1vw;
+font-size: 1.5vw;
+font-weight: 300;
+border-radius: 0.5vw;
+cursor: pointer;
+}
+
+#carrito .eliminar:hover {
+background-color: grey;
+}
+
+.carrito h2 {
+margin-bottom: 1vw;
+}
+
+.imgc {
+    max-width: 300px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+  
+.informacion {
+text-align: center; 
+}
+
+.precio {
+font-weight: bold; 
+}
+
+#carrito {
+margin-top: 20px;
+}
+
+#tabla-carrito {
+width: 100%;
+margin-top: 20px;
+}
+
+#vaciar-carrito {
+margin-top: 10px;
+padding: 5px 10px;
+background-color: rgb(57, 57, 57);
+color: #fff;
+border: none;
+cursor: pointer;
+}
+
+#vaciar-carrito:hover {
+background-color: grey;
+}
+  
+.text2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.accordion{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#carouselExampleIndicators{
+    margin-top: 20px;
+}
+
+.accordion{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.workshop{
+    margin-top: 5px;
+}
+
+.text-index{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.col-sm-6 {
+    margin-top: 50px; 
+}
+
+.photo img {
+    width: 100%; 
+    height: auto; 
+}
+
+.paragraph{
+    text-align: justify;
+}
+
+.tittle{
+    margin-top: 80px;
 }
