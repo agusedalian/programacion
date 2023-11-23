@@ -9,7 +9,7 @@ var carrito = [];
 
 function agregarAlCarrito() {
   var producto = {
-    nombre: this.parentNode.querySelector('p').textContent,
+    nombre: this.parentNode.querySelector('h3').textContent,
     precio: parseFloat(this.parentNode.querySelector('.precio').textContent.slice(1)),
     cantidad: 1
   };

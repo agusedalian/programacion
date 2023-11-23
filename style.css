@@ -2,12 +2,6 @@ body {
     background-color: grey;
 } 
 
-/* p{
-    color: black;
-    border: red;
-    padding-top: 10px;
-} */
-
 #titulo{
     position: sticky;
     padding: 10px;
@@ -22,7 +16,6 @@ body {
 p {
     font-family: "Times New Roman", 'Times New Roman', Times, serif;
 }
-
 
 .text-index{
     text-align: center;
@@ -369,19 +362,6 @@ background-color: grey;
     margin-top: 50px; 
 }
 
-.photo img {
-    width: 100%; 
-    height: auto; 
-}
-
-.paragraph{
-    text-align: justify;
-}
-
-.tittle{
-    margin-top: 80px;
-}
-
 .contacto {
     width: 50%; 
     margin: 10px; 
@@ -404,5 +384,22 @@ textarea {
 #contactarnos {
     width: 100%; 
     max-width: 150px; 
-    margin-top: 10px; 
+    margin-top: 5px; 
+}
+
+.paragraph{
+    text-align: justify;
+}
+
+#viaje-text {
+    text-align: left; 
+    margin-top: 80px; 
+}
+
+.photo {
+    max-width: 100%;
+    height: auto; 
+    float: right; 
+    margin-left: 20px; 
+    margin-top: 40px; 
 }
