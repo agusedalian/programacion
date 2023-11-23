@@ -37,7 +37,7 @@ p {
 }
 
 .contact{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .row{
@@ -380,4 +380,29 @@ background-color: grey;
 
 .tittle{
     margin-top: 80px;
+}
+
+.contacto {
+    width: 50%; 
+    margin: 10px; 
+}
+
+.other-content {
+    width: 50%;
+    margin: 10px; 
+}
+
+.col-md-6, .col-12 {
+    width: 100%; 
+    margin-bottom: 10px; 
+}
+
+textarea {
+    height: 80px; 
+}
+
+#contactarnos {
+    width: 100%; 
+    max-width: 150px; 
+    margin-top: 10px; 
 }
