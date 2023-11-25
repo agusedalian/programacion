@@ -115,48 +115,153 @@ a:hover{
     width: 50vw;
 }
 
-#bali{
+@media only screen and (max-width: 768px) {
+    .text,
+    .textooo,
+    .texto21 {
+        width: 100%;
+        padding: 15px; 
+        box-sizing: border-box; 
+    }
+
+    .imgs {
+        grid-template-columns: 1fr; 
+    }
+
+    .card {
+        width: 100%; 
+    }
+
+    .contenedorc>div {
+        width: 100%; 
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #francia,
+    #paisesBajos {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .cards22,
+    .cards33 {
+        width: 100%; 
+        margin-bottom: 20px; 
+    }
+
+    .textooo,
+    .texto21 {
+        padding: 15px; 
+        box-sizing: border-box; 
+    }
+}
+
+#bali {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    padding: 2vw 0vw 0vw 1vw;
 }
 
-.text{
+.text {
     width: 50%;
     padding: 30px;
     text-align: justify;
 }
 
-#francia{
+.cardd {
+    width: 50vw;
+}
+
+@media only screen and (max-width: 767px) {
+    #bali {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .text {
+        width: 80%; 
+        padding: 20px; 
+        margin-top: 20px; 
+    }
+
+    .cardd {
+        width: 80vw; 
+        margin-bottom: 20px; 
+    }
+    
+    #titulo {
+        text-align: center; 
+    }
+}
+
+#francia {
     display: flex;
     width: 100%;
     justify-content: space-around;
 }
 
-.textooo{
+.cards22 {
+    width: 50%;
+}
+
+.textooo {
     width: 50%;
     padding: 30px;
     text-align: justify;
 }
 
-.cards22{
-    width: 50%;
+@media only screen and (max-width: 767px) {
+    #francia {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .cards22,
+    .textooo {
+        width: 80%; 
+        padding: 20px;
+        margin-top: 20px; 
+    }
+    
+    #titulo {
+        text-align: center; 
+    }
 }
 
-.cards33{
-    width: 50%;
-}
-
-#paisesBajos{
+#paisesBajos {
     display: flex;
     width: 100%;
     justify-content: space-around;
 }
 
-.texto21{
+.cards33 {
+    width: 50%;
+}
+
+.texto21 {
     width: 50%;
     padding: 30px;
     text-align: justify;
+}
+
+@media only screen and (max-width: 767px) {
+    #paisesBajos {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .cards33,
+    .texto21 {
+        width: 80%; 
+        padding: 20px; 
+        margin-top: 20px; 
+    }
+
+    #titulo {
+        text-align: center; 
+    }
 }
 
 #comentarios {
