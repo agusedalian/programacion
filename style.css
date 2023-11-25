@@ -11,6 +11,7 @@ body {
 
 #logo{
     font-size: 2rem;
+    font-weight: 500;
 }
 
 p {
@@ -84,20 +85,21 @@ p {
 }
 
 .nav-link{
-    color: black!important;
+    color: white!important;
+    font-weight: 500;
 }
 
 a{
-    color: black;
-    color: black!important;
+    color: white;
+    color: white!important;
 }
 
 .nav-link:hover{
-    color: black;
+    color: white;
 }
 
 a:hover{
-   color: black;
+   color: white;
 }
 
 .imgs {  
@@ -433,6 +435,15 @@ cursor: pointer;
 background-color: grey;
 }
   
+#finalizar {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: rgb(57, 57, 57);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    }
+    
 .text2{
     margin-top: 20px;
     text-align: center;

@@ -6,7 +6,6 @@ for (var i = 0; i < botonesComprar.length; i++) {
 
 var carrito = [];
 
-
 function agregarAlCarrito() {
   var producto = {
     nombre: this.parentNode.querySelector('h3').textContent,
@@ -78,3 +77,32 @@ function eliminarProducto() {
 }
 
 actualizarCarrito();
+
+
+const botonFinalizar = document.querySelector(".finalizar_compra");
+
+botonFinalizar.addEventListener("click", function () {
+  if (carrito.length === 0) {
+    alert("Por favor, seleccione productos para realizar una compra.");
+    return;
+  }
+
+  let email = prompt("Ingrese su dirección de correo electrónico:");
+
+  while (email) {
+    const comprobando_email = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (comprobando_email.test(email)) {
+      alert("¡La operación se ha realizado con éxito!");
+      alert("¡Muchas gracias por su compra!");
+
+      carrito = [];
+      actualizarCarrito();
+
+      break;
+    } else {
+      alert("La dirección de correo electrónico ingresada no es válida.");
+      email = prompt("Ingrese una dirección de correo electrónico válida:");
+    }
+  }
+});
